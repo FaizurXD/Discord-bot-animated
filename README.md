@@ -28,6 +28,6 @@ file, locate the corresponding images in the "anim" folder, and set them as the 
 
 ## Troubleshooting
 
-- If the script fails to run or encounters errors, ensure that the Discord bot token and image filenames are correctly specified in the `.env` file and that the images are located in the "anim" folder.
+- If the script fails to run or encounters errors, ensure that the Discord bot token and image filenames are correctly specified in the `.env` file and that the Gif's are located in the "anim" folder.
 
-- You can also customize the filenames for the profile picture and banner in the `.env` file to set different images.
+- You can also customize the filenames for the profile picture and banner in the `.env` file to set different Gif's.
