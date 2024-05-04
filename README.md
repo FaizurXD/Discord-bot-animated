@@ -1,6 +1,6 @@
 # Discord Profile Picture and Banner Setter
 
-This script sets the profile picture (avatar) and banner for a Discord user using the discord.js library.
+This script sets the profile picture (avatar) and banner for a Discord bot using the discord.js library.
 
 ## Prerequisites
 
@@ -12,9 +12,11 @@ Before running the script, make sure you have the following:
 
 ## Setup
 
-1. Clone this repository:git clone https://github.com/your_username/your_repository.git2. Navigate to the project directory:cd discord-profile-banner-setter3. Install dependencies:npm install4. Rename `.env.example` to `.env`.
+1. Clone this repository:git clone https://github.com/FaizurXD/Discord-bot-animated
 
-5. Edit the `.env` file and add your Discord bot token, profile picture filename, and banner filename:BOT_TOKEN=your_discord_token_here PFP=profile_picture_filename.gif BANNER=banner_filename.gif6. Place your profile picture (avatar) and banner images in GIF format in a folder named "anim" in the root directory.
+2. Rename `.env.example` to `.env`.
+
+3. Edit the `.env` file and add your Discord bot token, profile picture filename, and banner filename:BOT_TOKEN=your_discord_token_here PFP=profile_picture_filename.gif BANNER=banner_filename.gif6. Place your profile picture (avatar) and banner images in GIF format in a folder named "anim" in the root directory.
 
 ## Usage
 
