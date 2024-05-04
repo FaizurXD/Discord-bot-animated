@@ -16,11 +16,15 @@ Before running the script, make sure you have the following:
 
 2. Rename `.env.example` to `.env`.
 
-3. Edit the `.env` file and add your Discord bot token, profile picture filename, and banner filename:BOT_TOKEN=your_discord_token_here PFP=profile_picture_filename.gif BANNER=banner_filename.gif6. Place your profile picture (avatar) and banner images in GIF format in a folder named "anim" in the root directory.
+3. Edit the `.env` file and add your Discord bot token, profile picture filename, and banner variables:
+`BOT_TOKEN=your_discord_token_here`  , `PFP=profile_picture_filename.gif` , 
+`BANNER=banner_filename.gif`
+6. Place your profile picture (avatar) and banner images in GIF format in a folder named "anim" in the root directory.
 
 ## Usage
 
-Run the script using the following command:node setBannerAndAvatar.jsThe script will read the profile picture and banner filenames from the `.env` file, locate the corresponding images in the "anim" folder, and set them as the user's avatar and banner on Discord.
+Run the script using the following command:node setBannerAndAvatar.jsThe script will read the profile picture and banner filenames from the `.env`
+file, locate the corresponding images in the "anim" folder, and set them as the user's avatar and banner on Discord.
 
 ## Troubleshooting
 
